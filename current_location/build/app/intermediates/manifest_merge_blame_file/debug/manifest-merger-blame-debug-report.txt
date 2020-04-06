@@ -1,0 +1,119 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.currentlocation"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <!--
+16     io.flutter.app.FlutterApplication is an android.app.Application that
+17         calls FlutterMain.startInitialization(this); in its onCreate method.
+18         In most cases you can leave this as-is, but you if you want to provide
+19         additional functionality it is fine to subclass or reimplement
+20         FlutterApplication and put your custom class here.
+21    -->
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:8:5-79
+22-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:8:22-76
+23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+23-->[:location] /Users/jerin/Documents/flutterProjects/current_location/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+23-->[:location] /Users/jerin/Documents/flutterProjects/current_location/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[com.google.android.gms:play-services-maps:17.0.0] /Users/jerin/.gradle/caches/transforms-2/files-2.1/23cc5518a2842de42d517ee74aa79a3e/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+24-->[com.google.android.gms:play-services-maps:17.0.0] /Users/jerin/.gradle/caches/transforms-2/files-2.1/23cc5518a2842de42d517ee74aa79a3e/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+25
+26    <uses-feature
+26-->[com.google.android.gms:play-services-maps:17.0.0] /Users/jerin/.gradle/caches/transforms-2/files-2.1/23cc5518a2842de42d517ee74aa79a3e/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+27        android:glEsVersion="0x00020000"
+27-->[com.google.android.gms:play-services-maps:17.0.0] /Users/jerin/.gradle/caches/transforms-2/files-2.1/23cc5518a2842de42d517ee74aa79a3e/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+28        android:required="true" />
+28-->[com.google.android.gms:play-services-maps:17.0.0] /Users/jerin/.gradle/caches/transforms-2/files-2.1/23cc5518a2842de42d517ee74aa79a3e/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+29
+30    <application
+30-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:9:5-32:19
+31        android:name="io.flutter.app.FlutterApplication"
+31-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:10:9-57
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.0.0] /Users/jerin/.gradle/caches/transforms-2/files-2.1/3f003e2cfc9865ae49ff938367e20140/core-1.0.0/AndroidManifest.xml:22:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:12:9-43
+35        android:label="currentlocation" >
+35-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:11:9-40
+36        <meta-data
+36-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:13:9-14:70
+37            android:name="com.google.android.geo.API_KEY"
+37-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:13:20-65
+38            android:value="AIzaSyAczBflxphjE-npQhmiqUbMiiXoniSiMc8" />
+38-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:14:13-68
+39
+40        <activity
+40-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:15:9-26:20
+41            android:name="com.example.currentlocation.MainActivity"
+41-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:16:13-41
+42            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+42-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:19:13-163
+43            android:hardwareAccelerated="true"
+43-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:20:13-47
+44            android:launchMode="singleTop"
+44-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:17:13-43
+45            android:theme="@style/LaunchTheme"
+45-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:18:13-47
+46            android:windowSoftInputMode="adjustResize" >
+46-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:21:13-55
+47            <intent-filter>
+47-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:22:13-25:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:23:17-68
+48-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:23:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:24:17-76
+50-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:24:27-74
+51            </intent-filter>
+52        </activity>
+53        <!--
+54             Don't delete the meta-data below.
+55             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+56        -->
+57        <meta-data
+57-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:29:9-31:33
+58            android:name="flutterEmbedding"
+58-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:30:13-44
+59            android:value="2" />
+59-->/Users/jerin/Documents/flutterProjects/current_location/android/app/src/main/AndroidManifest.xml:31:13-30
+60        <!-- Needs to be explicitly declared on P+ -->
+61        <uses-library
+61-->[com.google.android.gms:play-services-maps:17.0.0] /Users/jerin/.gradle/caches/transforms-2/files-2.1/23cc5518a2842de42d517ee74aa79a3e/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+62            android:name="org.apache.http.legacy"
+62-->[com.google.android.gms:play-services-maps:17.0.0] /Users/jerin/.gradle/caches/transforms-2/files-2.1/23cc5518a2842de42d517ee74aa79a3e/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+63            android:required="false" />
+63-->[com.google.android.gms:play-services-maps:17.0.0] /Users/jerin/.gradle/caches/transforms-2/files-2.1/23cc5518a2842de42d517ee74aa79a3e/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+64
+65        <activity
+65-->[com.google.android.gms:play-services-base:17.0.0] /Users/jerin/.gradle/caches/transforms-2/files-2.1/5b158abc2263076f387a9dedc11ef3a4/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+66-->[com.google.android.gms:play-services-base:17.0.0] /Users/jerin/.gradle/caches/transforms-2/files-2.1/5b158abc2263076f387a9dedc11ef3a4/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-base:17.0.0] /Users/jerin/.gradle/caches/transforms-2/files-2.1/5b158abc2263076f387a9dedc11ef3a4/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-base:17.0.0] /Users/jerin/.gradle/caches/transforms-2/files-2.1/5b158abc2263076f387a9dedc11ef3a4/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+69
+70        <meta-data
+70-->[com.google.android.gms:play-services-basement:17.0.0] /Users/jerin/.gradle/caches/transforms-2/files-2.1/55a487f7460c0dcd7b409e78abeb3217/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+71            android:name="com.google.android.gms.version"
+71-->[com.google.android.gms:play-services-basement:17.0.0] /Users/jerin/.gradle/caches/transforms-2/files-2.1/55a487f7460c0dcd7b409e78abeb3217/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+72            android:value="@integer/google_play_services_version" />
+72-->[com.google.android.gms:play-services-basement:17.0.0] /Users/jerin/.gradle/caches/transforms-2/files-2.1/55a487f7460c0dcd7b409e78abeb3217/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+73    </application>
+74
+75</manifest>
